@@ -40,7 +40,7 @@ public class Class6 {
         String[] strArray = {"Hello", "nihao"};
         String sssss = "nihao";
 
-        System.out.println(sssss);
+        System.out.println(sssss+"hefjie");
         // We are not able to directly print array as it is in Python
         System.out.println(intArray); // This will show the address of array.
      }
