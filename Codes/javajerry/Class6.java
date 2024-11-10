@@ -38,7 +38,7 @@ public class Class6 {
         int[] intArray = {1,2,3,4,5};
 
         String[] strArray = {"Hello", "nihao"};
-         
+        String sssss = "nihao";
         // We are not able to directly print array as it is in Python
         System.out.println(intArray); // This will show the address of array.
      }
