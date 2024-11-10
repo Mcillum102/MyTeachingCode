@@ -6,7 +6,7 @@ public class Class6 {
 
         String s = "hello e";
 
-        System.out.println(s.indexOf("e"));
+        System.out.println(s.indexOf("e",2));
 
     }
 }

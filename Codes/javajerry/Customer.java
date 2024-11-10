@@ -1,3 +1,4 @@
+package javajerry;
 public class Customer{
 
     private String name;
@@ -8,17 +9,17 @@ public class Customer{
         this.idNum = idNum;
     }
 
-    public Customer(String name, int idNum, ) {
+    // An overload constructor
+    public Customer(String name, int idNum, String gender) {
         this.name = name;
         this.idNum = idNum;
     }
-
-
 
     public String getName() {
         return this.name;
     }
 
+    // An overload method
     public String getName(int num) {
         return this.name;
     }
@@ -41,6 +42,9 @@ public class Customer{
         Customer c1 = new Customer("David", 1001);
         Customer c2 = new Customer("Scott", 1002);
         Customer c3 = new Customer("Ben", 1003);
+
+        // This is an example of overloaded object
+        Customer c4 = new Customer("Trump", 100000, "Male");
 
         System.out.println(c2.compareCustomer(c1));
         System.out.println(c2.compareCustomer(c2));

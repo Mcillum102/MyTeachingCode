@@ -1,3 +1,4 @@
+package javajerry;
 public class Person {
    /// fields ////////////////
    private String name;
